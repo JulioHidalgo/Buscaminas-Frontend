@@ -1,0 +1,11 @@
+<button class="btnInicio" #btnInicio (click)="StartGameEvent()">Jugar</button>
+
+<div class="contenido" #contenido></div>
+
+<div #botoneraFooter class="botoneraFooter" style="visibility:hidden">
+    <h4 style="float: left; margin-left: 20px">Jugador</h4>
+    <h4 id="puntuacion" style="display: inline-block;">Puntuación: <b>{{ scorePlayer }}</b></h4>
+    <h4 style="float: right; margin-right: 20px">Tiempo: <b>{{ timePlayer }}</b></h4>
+</div>
+
+<router-outlet></router-outlet>

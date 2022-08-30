@@ -1,0 +1,46 @@
+{
+    "extends": "../tslint.json",
+    
+    "rules": {
+        "directive-selector": [
+            true,
+            "attribute",
+            "app",
+            "camelCase"
+        ],
+        "rules": {    
+            "indent": [
+                true, "tabs", 2
+            ],
+
+        "component-selector": [
+            true,
+            "element",
+            "app",
+            "kebab-case"
+        ],
+        "type": "array",
+        "items": [
+          {
+            "type": "string",
+            "enum": [
+              "tabs",
+              "spaces"
+            ]
+          },
+          {
+            "type": "number",
+            "enum": [
+              2,
+              4
+            ]
+          }
+        ],
+        "minLength": 0,
+        "maxLength": 5
+    }
+}
+
+}
+
+

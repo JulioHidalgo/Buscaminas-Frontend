@@ -1,0 +1,54 @@
+h4 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 8px 0 6px;
+}
+
+.contenido {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.botoneraFooter {
+	background-color: rgb(44,139,255);
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    color: #fff;
+    text-align: center;
+    border-top: 2px solid white;
+}
+
+/* Boton Inicio */
+
+.btnInicio:hover {
+	position: absolute;
+	content: '';
+	transition: all 0.5s;
+	cursor: pointer;
+	background-color: #530113;
+}
+
+.btnInicio {
+	display: inline-block;
+	padding: 20px 40px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	vertical-align: middle;
+	font-size: 3em;
+	transition: all 0.5s;
+	background-color: #db0132;
+	border-radius: 360px;
+	border: 2px solid #fff;
+}
+
+
+.btnInicio:active {
+	margin-left: 10px;
+	margin-top: 10px;
+}
